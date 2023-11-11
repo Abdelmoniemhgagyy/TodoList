@@ -7,7 +7,7 @@ function TodoList() {
     const[todos,setTodos]=useState([]);
     
     const idhandel = ()=> {
-      return  Math.floor(Math.random()*10)
+      return  Math.floor(Math.random()*1000)
     }
     const input = createRef();
     useEffect(()=>{
