@@ -10,7 +10,10 @@ body {
   align-items: center;
   background-size: cover;
   min-height: 100vh;
-  background-color: black;
+  background-color: rgb(8, 88, 1);
+  background: rgb(27,137,161);
+  background: linear-gradient(90deg, rgba(27,137,161,1) 30%, rgba(0,223,254,1) 93%);
+  overflow-x: hidden;
 }
 
 .todo-container input {
@@ -37,17 +40,18 @@ ul{ margin-top: 20px;
   box-shadow: 0 0 20px #aafd00;
   text-align: center;
   border-radius: 10px;
+  background-color: rgb(9, 2, 100);
 }
 ul li {
        width: 100%;
-       background-color: #aafd00;
-       color: #00323f;
+       background: linear-gradient(0deg, rgb(23, 171, 197) 0%, rgb(10, 90, 238) 100%);
+       color: #fff;
        display: flex;
        align-items: center;
        justify-content: space-between;
        padding: 7px;
-       margin: 5px 0 ;
-       
+       font-size: 12px;
+       margin: 5px 0;
 }
 ul li button {
   padding: 5px;
@@ -65,7 +69,8 @@ ul li button {
   width: 100%;
   padding: 5px;
   cursor: pointer;
-  background-color: #00323f;
+  background: rgb(27,137,161);
+  background: linear-gradient(90deg, rgba(27,137,161,1) 30%, rgba(0,223,254,1) 93%);
   border-radius: 0 0 10px 10px;
 }
 .bi-trash3-fill{
